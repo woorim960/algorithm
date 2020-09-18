@@ -1,2 +1,2 @@
-# data-structure
-자료구조 모음
+# algorithm
+알고리즘 모음
