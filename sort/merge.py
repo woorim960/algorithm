@@ -1,6 +1,6 @@
 # 합병 정렬
 def merge_sort(ls) :
-    n = len(ls)
+    n = len(ls)				# 여러번 호출되기에 미리 선언해준다.
     if n <= 1 : return ls               # 리스트의 길이가 1이면 자기 자신 반환
 
     u = merge_sort(ls[:n//2])           # 반으로 나눈 좌측 리스트
