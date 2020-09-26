@@ -2,7 +2,6 @@
 from collections import deque
 
 # 연결된 노드들끼리 리스트에 담아준다.
-'''
 graph = [
   [],
   [2, 3, 8],
@@ -14,7 +13,6 @@ graph = [
   [6, 8],
   [1, 7]
 ]
-'''
 
 # 방문 처리를 위한 방문 여부 변수 선언
 is_visitable = [False] * 9
